@@ -1,0 +1,336 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background: url('../images/rwanda.jpg') no-repeat;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border: 1px solid #e67e22; 
+}
+
+#logo-img {
+  background: url('../images/new.png') no-repeat;
+  width:50px;
+  height: 50px;
+  margin-top:0px;
+  margin-left:-50px;
+  position: fixed;
+  background-color:#e67e22;
+}
+
+.navbar-brand {
+  padding-top:15px;
+
+}
+.navbar-brand h1 { /* user name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 0px;
+  
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: blue;
+}
+#nav-list a span {
+  font-size: 1.3em;
+}
+
+/*menu*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 800px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border: 2px solid red;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span, #testimonials > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/new.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left:2px;
+  }
+  /* End Header */
+
+  /* Home Page */
+
+ 
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top:5px;
+   
+  }
+  .navbar-brand h1 { /* user name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: white;
+    
+    
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+  
+  }
+  
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+ 
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* user name */
+    padding-top: 5px;
+    font-size: 6vw;
+
+  }
+  /* End Header */
+  
+  /* Home page */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+/********************************** experience and education*************** **********/
+ #experiences{
+  background: url('../images/kigali.jpg') no-repeat;
+  margin-top: 90px;
+   position: absolute; 
+   
+   
+
+  }
+  .menu-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color:black;
+    
+  }
+  .image-title{
+    text-align: center;
+    color: white;
+  }
+  
+  .item{
+    position:relative;
+    background-color:gray;
+    margin:5px;
+    padding:15px;
+    height: 610px;
+  }
+  .item p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 100%;
+  }
+   .item-title{ 
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+   #title-one {
+    background-color: red;
+  } 
+  
+  #title-two{
+    background-color: green;
+  }
+  
+  #title-three{
+    background-color: blue;
+  }
+   /*------ Desktop ------*/
+  @media (min-width: 992px){
+    
+  .col-lg-4 {
+      width: 33.33%;
+    float:left;
+    }
+    body {
+  font-size: 16px;
+  color: #fff;
+  background: url('../images/rwanda.jpg');
+}
+  
+  }
+  
+  
+  /*------ Tablet ------*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+   .col-lg-12{
+      width: 100%;
+      float: left;
+    }
+  .panel-footer {
+  margin-top: 1420px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border: 2px solid red;
+}
+#experiences{
+  background: url('../images/kigali.jpg');
+  margin-top: 90px;
+   position: absolute; 
+   
+ }
+ body {
+  font-size: 16px;
+  color: #fff;
+
+  background: url('../images/rwanda.jpg');
+}
+
+  }
+  
+  
+  /*------ Mobile ------*/
+  @media (min-width:0px) and (max-width: 767px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+    .col-lg-12{
+      width: 100%;
+      float: left;
+    }
+    .menu-title{
+    padding-left:3px;
+  }
+  .panel-footer {
+  margin-top: 2040px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border: 2px solid red;
+}
+#experiences{
+  background: url('../images/kigali.jpg');
+  margin-top: 90px;
+   position:absolute; 
+   
+ }
+ body {
+  font-size: 16px;
+  color: #fff;
+
+  background: url('../images/rwanda.jpg');
+}
+  } 
+  
+/*************************platform****************************/
+#hours a{
+  color: white;
+  text-decoration: none;
+}
+#hours a:hover{
+  color: blue;
+}
+
+
+
