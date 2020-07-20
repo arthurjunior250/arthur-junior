@@ -323,6 +323,51 @@ body {
 }
   } 
   
+
+/*------ iphone 6 ------*/
+  @media (min-width:0px) and (max-width:414px){
+    .item{
+    position:relative;
+    background-color:gray;
+    margin:5px;
+    padding:15px;
+    height: 610px;
+    width: 320px;
+  }
+   .panel-footer {
+  margin-top: 2025px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border: 2px solid red;
+
+  } 
+   h1{
+   font-size: 6vw; 
+  }
+} 
+/*------ iphone 5s ------*/
+  @media (min-width:0px) and (max-width:320px){
+    .item{
+    position:relative;
+    background-color:gray;
+    margin:5px;
+    padding:15px;
+    height: 610px;
+    width: 280px;
+  }
+   .panel-footer {
+  margin-top: 2020px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border: 2px solid red;
+
+  } 
+   h1{
+   font-size: 6vw; 
+  }
+}   
 /*************************platform****************************/
 #hours a{
   color: white;
