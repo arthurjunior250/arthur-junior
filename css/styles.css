@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background: url('../images/rwanda.jpg') no-repeat;
+  background: url('../images/rwanda.jpg');
 
 }
 
@@ -71,7 +71,7 @@ body {
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid red;
+  border: 2px solid #e67e22;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -103,11 +103,13 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/new.png') no-repeat;
-    width: 50px;
-    height: 50px;
-    margin-left:2px;
-  }
+  background: url('../images/new.png') no-repeat;
+  width:50px;
+  height: 50px;
+  margin-top:0px;
+  margin-left:-50px;
+  background-color:#e67e22;
+}
   /* End Header */
 
   /* Home Page */
@@ -124,7 +126,6 @@ body {
   /* Header */
   .navbar-brand {
     padding-top:5px;
-   
   }
   .navbar-brand h1 { /* user name */
     padding-top: 10px;
@@ -166,7 +167,7 @@ body {
 
 /********************************** experience and education*************** **********/
  #experiences{
-  background: url('../images/kigali.jpg') no-repeat;
+  background:white;
   margin-top: 90px;
    position: absolute; 
    
@@ -185,11 +186,13 @@ body {
   }
   
   .item{
+    background-color:silver;
     position:relative;
-    background-color:gray;
+    color: black;
     margin:5px;
     padding:15px;
     height: 610px;
+    border: 1px solid #e67e22; 
   }
   .item p{
     margin-top: 20px;
@@ -201,16 +204,16 @@ body {
     border-bottom: 2px solid black;
   }
    #title-one {
-    background-color: red;
+    background-color:white;
   } 
   
   #title-two{
-    background-color: green;
+    background-color:white;
   }
   
   #title-three{
-    background-color: blue;
-  }
+    background-color:white;
+  }si
    /*------ Desktop ------*/
   @media (min-width: 992px){
     
@@ -246,10 +249,10 @@ body {
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid red;
+  border: 2px solid #e67e22;
 }
 #experiences{
-  background: url('../images/kigali.jpg');
+  background: white;
   margin-top: 90px;
    position: absolute; 
    
@@ -282,10 +285,10 @@ body {
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid red;
+  border: 2px solid #e67e22;
 }
 #experiences{
-  background: url('../images/kigali.jpg');
+  background:white;
   margin-top: 90px;
    position:absolute; 
    
@@ -296,6 +299,19 @@ body {
 
   background: url('../images/rwanda.jpg');
 }
+#logo-img {
+  background: url('../images/new.png') no-repeat;
+  width:50px;
+  height: 50px;
+  margin-top:0px;
+  margin-left:10px;
+  position: fixed;
+  background-color:#e67e22;
+}
+.navbar-brand h1 { /* user name */
+padding-left: 50px;
+}
+
   } 
   
 
@@ -303,29 +319,44 @@ body {
   @media (min-width:0px) and (max-width:414px){
     .item{
     position:relative;
-    background-color:gray;
+    background-color:silver;
     margin:5px;
     padding:15px;
     height: 610px;
     width: 320px;
+
   }
    .panel-footer {
   margin-top: 2025px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid red;
+  border: 2px solid #e67e22;
 
   } 
    h1{
    font-size: 6vw; 
   }
+  #logo-img {
+  background: url('../images/new.png') no-repeat;
+  width:50px;
+  height: 50px;
+  margin-top:0px;
+  margin-left:10px;
+  position: fixed;
+  background-color:#e67e22;
+}
+.navbar-brand h1 { /* user name */
+padding-left: 50px;
+}
+
 } 
 /*------ iphone 5s ------*/
   @media (min-width:0px) and (max-width:320px){
+
     .item{
     position:relative;
-    background-color:gray;
+    background-color:silver;
     margin:5px;
     padding:15px;
     height: 610px;
@@ -336,13 +367,27 @@ body {
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid red;
+  border: 2px solid #e67e22;
 
   } 
    h1{
    font-size: 6vw; 
   }
-}   
+#logo-img {
+  background: url('../images/new.png') no-repeat;
+  width:50px;
+  height: 50px;
+  margin-top:0px;
+  margin-left:10px;
+  position: fixed;
+  background-color:#e67e22;
+}
+.navbar-brand h1 { /* user name */
+padding-left: 50px;
+}
+
+
+  }   
 /*************************platform****************************/
 #hours a{
   color: white;
