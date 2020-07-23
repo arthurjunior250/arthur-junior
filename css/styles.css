@@ -4,12 +4,35 @@ body {
   background: url('../images/rwanda.jpg');
 
 }
+.image-title{
+  background-color:silver;
+  opacity:.7;
+}
+#section1{
+color:black;
+font-weight:bold;
+background-color:white;
+text-align: center;
+opacity: .8;
+}
+
+#am{
+margin-top: 60px;
+font-family:cursive;
+color:black;
+font-weight:bold;
+background-color:white;
+text-align: center;
+opacity: .8;
+}
 
 /** HEADER **/
 #header-nav {
   background-color: white;
   border: 1px solid #e67e22; 
+
 }
+
 
 #logo-img {
   background: url('../images/new.png') no-repeat;
@@ -19,6 +42,13 @@ body {
   margin-left:-50px;
   position: fixed;
   background-color:#e67e22;
+  transition-property:height;
+  transition-delay: 1s;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+}
+#logo-img:hover{
+  height: 200px;
 }
 
 .navbar-brand {
@@ -26,7 +56,7 @@ body {
 
 }
 .navbar-brand h1 { /* user name */
-  font-family: 'Lora', serif;
+  font-family: cursive;
   color: black;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -111,7 +141,13 @@ body {
   background-color:#e67e22;
 }
   /* End Header */
-
+.panel-footer {
+  margin-top: 2000px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border: 2px solid #e67e22;
+}
   /* Home Page */
 
  
@@ -169,11 +205,9 @@ body {
  #experiences{
   background:white;
   margin-top: 90px;
-   position: absolute; 
-   
-   
-
-  }
+  position:absolute;
+  width:100%;
+ }
   .menu-title{
     text-align: center;
     margin-bottom: 30px;
@@ -186,7 +220,7 @@ body {
   }
   
   .item{
-    background-color:silver;
+    background-color:white;
     position:relative;
     color: black;
     margin:5px;
@@ -221,11 +255,6 @@ body {
       width: 33.33%;
     float:left;
     }
-    body {
-  font-size: 16px;
-  color: #fff;
-  background: url('../images/rwanda.jpg');
-}
   
   }
   
@@ -257,18 +286,12 @@ body {
    position: absolute; 
    
  }
- body {
-  font-size: 16px;
-  color: #fff;
-
-  background: url('../images/rwanda.jpg');
-}
 
   }
   
   
   /*------ Mobile ------*/
-  @media (min-width:0px) and (max-width: 767px){
+  @media (max-width: 767px){
     .col-lg-4{
       width: 100%;
       float: left;
@@ -293,12 +316,7 @@ body {
    position:absolute; 
    
  }
- body {
-  font-size: 16px;
-  color: #fff;
-
-  background: url('../images/rwanda.jpg');
-}
+ 
 #logo-img {
   background: url('../images/new.png') no-repeat;
   width:50px;
@@ -316,18 +334,18 @@ padding-left: 50px;
   
 
 /*------ iphone 6 ------*/
-  @media (min-width:0px) and (max-width:414px){
+  @media (max-width:415px){
     .item{
     position:relative;
-    background-color:silver;
-    margin:5px;
+    background-color:white;
+    margin:5px auto;
     padding:15px;
     height: 610px;
     width: 320px;
 
   }
    .panel-footer {
-  margin-top: 2025px;
+  margin-top: 2000px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -349,21 +367,33 @@ padding-left: 50px;
 .navbar-brand h1 { /* user name */
 padding-left: 50px;
 }
-
+#image1{
+  width: 350px;
+  height: 270px;
+}
+#am{
+margin-top:0px;
+font-family:cursive;
+color:black;
+font-weight:bold;
+background-color:white;
+text-align: center;
+opacity: .8;
+}
 } 
 /*------ iphone 5s ------*/
-  @media (min-width:0px) and (max-width:320px){
+  @media (max-width:321px){
 
     .item{
     position:relative;
-    background-color:silver;
-    margin:5px;
+    background-color:white;
+    margin:5px auto;
     padding:15px;
     height: 610px;
     width: 280px;
   }
    .panel-footer {
-  margin-top: 2020px;
+  margin-top: 2000px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -386,7 +416,19 @@ padding-left: 50px;
 padding-left: 50px;
 }
 
-
+#image1{
+  width: 300px;
+  height: 240px;
+}
+#am{
+margin-top:0px;
+font-family:cursive;
+color:black;
+font-weight:bold;
+background-color:white;
+text-align: center;
+opacity: .8;
+}
   }   
 /*************************platform****************************/
 #hours a{
