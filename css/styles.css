@@ -3,6 +3,10 @@ body {
   color: #fff;
   background: url('../images/rwanda.jpg');
 }
+#main-content{
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
 #search{
   margin-top: 13px;
   color:black;
@@ -12,7 +16,7 @@ body {
   background-color:white;
   opacity:.7;
 }
-#section1{
+#service1{
 color:black;
 font-weight:bold;
 background-color:white;
@@ -34,7 +38,7 @@ font-size:22px;
 /** HEADER **/
 #header-nav {
   background-color: white;
-  border: 1px solid #e67e22; 
+  border: 1px solid #3F0C1F; 
 
 }
 #image1{
@@ -86,7 +90,7 @@ font-size:22px;
   text-align: center;
 }
 #nav-list a:hover {
-  color: blue;
+  color: #3F0C1F;
 }
 #nav-list a span {
   font-size: 1.3em;
@@ -108,7 +112,7 @@ font-size:22px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #e67e22;
+  border: 2px solid #3F0C1F;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -153,7 +157,7 @@ font-size:22px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #e67e22;
+  border: 2px solid #3F0C1F;
 }
   /* Home Page */
 
@@ -214,6 +218,7 @@ font-size:22px;
   margin-top: 90px;
   position:absolute;
   width:100%;
+
  }
   .menu-title{
     text-align: center;
@@ -233,7 +238,9 @@ font-size:22px;
     margin:5px;
     padding:15px;
     height: 610px;
-    border: 1px solid #e67e22; 
+    border: 1px solid #3F0C1F; 
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
   }
   .item p{
     margin-top: 20px;
@@ -285,7 +292,7 @@ font-size:22px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #e67e22;
+  border: 2px solid #3F0C1F;
 }
 #experiences{
   background: white;
@@ -315,7 +322,7 @@ font-size:22px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #e67e22;
+  border: 2px solid #3F0C1F;
 }
 #experiences{
   background:white;
@@ -335,6 +342,9 @@ font-size:22px;
 }
 .navbar-brand h1 { /* user name */
 padding-left: 50px;
+}
+#logo-img:hover{
+  width:350px;
 }
 
   } 
@@ -356,7 +366,7 @@ padding-left: 50px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #e67e22;
+  border: 2px solid #3F0C1F;
 
   } 
    h1{
@@ -404,7 +414,7 @@ opacity: .8;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #e67e22;
+  border: 2px solid #3F0C1F;
 
   } 
    h1{
@@ -472,5 +482,15 @@ h1 span:nth-child(3){
     transform: translateY(3px);
   }
   
+}
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid #3F0C1F;
+    background-color: black;
+    color: white;
+    width: 180px;
 }
 
