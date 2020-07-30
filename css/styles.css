@@ -3,14 +3,15 @@ body {
   color: #fff;
   background: url('../images/rwanda.jpg');
 }
+
 #main-content{
-  box-shadow: 0 0 50px #3F0C1F;
+  box-shadow: 0 0 500px #3F0C1F;
   border: 2px solid #3F0C1F;
 }
 #search{
   margin-top: 13px;
   color:black;
-  margin-left: 10px;
+  margin-left: 100px;
 }
 .image-title{
   background-color:white;
@@ -50,7 +51,7 @@ font-size:22px;
   width:50px;
   height: 50px;
   margin-top:0px;
-  margin-left:-50px;
+  margin-left:10px;
   position: fixed;
   background-color:#e67e22;
   transition-property:height;
@@ -75,6 +76,7 @@ font-size:22px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  margin-left:50px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -90,7 +92,7 @@ font-size:22px;
   text-align: center;
 }
 #nav-list a:hover {
-  color: #3F0C1F;
+  color: #e67e22;
 }
 #nav-list a span {
   font-size: 1.3em;
@@ -141,28 +143,53 @@ font-size:22px;
 
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   /* Header */
   #logo-img {
   background: url('../images/new.png') no-repeat;
   width:50px;
   height: 50px;
   margin-top:0px;
-  margin-left:-50px;
   background-color:#e67e22;
 }
-  /* End Header */
+#main-content{
+  
+  border: 0px solid #3F0C1F;
+}
+.item{
+  width: 1650px;
+}
+#am{
+  width: 1500px;
+}
+.image-title{
+  width: 1600px;
+}
+#service1{
+width: 1500px;
+}
+#image1{
+  width: 300px;
+  height: 200px;
+}
+#header-nav {
+  width: 1700px;
+}
 .panel-footer {
   margin-top: 2000px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
   border: 2px solid #3F0C1F;
+  width:1700px;
 }
-  /* Home Page */
 
- 
-  /* End Home Page */
+body {
+  font-size: 16px;
+  color: #fff;
+  background: url('../images/rwanda.jpg');
+}
+
 }
 
 /********** Small devices only **********/
@@ -340,9 +367,6 @@ font-size:22px;
   position: fixed;
   background-color:#e67e22;
 }
-.navbar-brand h1 { /* user name */
-padding-left: 50px;
-}
 
   } 
   
@@ -377,9 +401,6 @@ padding-left: 50px;
   margin-left:10px;
   position: fixed;
   background-color:#e67e22;
-}
-.navbar-brand h1 { /* user name */
-padding-left: 50px;
 }
 #image1{
   width: 350px;
@@ -425,9 +446,6 @@ opacity: .8;
   margin-left:10px;
   position: fixed;
   background-color:#e67e22;
-}
-.navbar-brand h1 { /* user name */
-padding-left: 50px;
 }
 
 #image1{
