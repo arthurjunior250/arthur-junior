@@ -53,13 +53,13 @@ font-size:22px;
   margin-left:-50px;
   position: fixed;
   background-color:#e67e22;
-  transition-property:width;
+  transition-property:height;
   transition-delay: 1s;
   transition-duration: .5s;
   transition-timing-function: ease-in;
 }
 #logo-img:hover{
-  width:330px;
+  height:78px;
 }
 
 .navbar-brand {
@@ -342,9 +342,6 @@ font-size:22px;
 }
 .navbar-brand h1 { /* user name */
 padding-left: 50px;
-}
-#logo-img:hover{
-  width:350px;
 }
 
   } 
