@@ -1,12 +1,18 @@
 body {
   font-size: 16px;
   color: #fff;
-  background: url('../images/rwanda.jpg');
+}
+#nav-list #active1:active{
+color: red;
+}
+#nav-list #active2:active{
+color: red;
 }
 
 #main-content{
   box-shadow: 0 0 500px #3F0C1F;
   border: 2px solid #3F0C1F;
+  background: url('../images/rwanda.jpg');
 }
 #search{
   margin-top: 13px;
@@ -39,8 +45,7 @@ font-size:22px;
 /** HEADER **/
 #header-nav {
   background-color: white;
-  border: 1px solid #3F0C1F; 
-
+  border: 1px solid #3F0C1F;
 }
 #image1{
   margin-top:80px;
@@ -145,6 +150,9 @@ font-size:22px;
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1200px) {
   /* Header */
+  col-lg-max{
+    width:100%;
+  }
   #logo-img {
   background: url('../images/new.png') no-repeat;
   width:50px;
@@ -168,10 +176,7 @@ font-size:22px;
 #service1{
 width: 1500px;
 }
-#image1{
-  width: 300px;
-  height: 200px;
-}
+
 #header-nav {
   width: 1700px;
 }
@@ -182,12 +187,6 @@ width: 1500px;
   background-color: #222;
   border: 2px solid #3F0C1F;
   width:1700px;
-}
-
-body {
-  font-size: 16px;
-  color: #fff;
-  background: url('../images/rwanda.jpg');
 }
 
 }
@@ -288,16 +287,8 @@ body {
   
   #title-three{
     background-color:white;
-  }si
-   /*------ Desktop ------*/
-  @media (min-width: 992px){
-    
-  .col-lg-4 {
-      width: 33.33%;
-    float:left;
-    }
-  
   }
+  
   
   
   /*------ Tablet ------*/
@@ -332,7 +323,7 @@ body {
   
   
   /*------ Mobile ------*/
-  @media (max-width: 767px){
+  @media (min-width: 416px) and (max-width: 767px){
     .col-lg-4{
       width: 100%;
       float: left;
@@ -372,7 +363,7 @@ body {
   
 
 /*------ iphone 6 ------*/
-  @media (max-width:415px){
+  @media (min-width: 322px) and (max-width:415px){
     .item{
     position:relative;
     background-color:white;
@@ -417,7 +408,7 @@ opacity: .8;
 }
 } 
 /*------ iphone 5s ------*/
-  @media (max-width:321px){
+  @media (min-width:0px) and (max-width:321px){
 
     .item{
     position:relative;
