@@ -13,6 +13,7 @@ color: red;
   box-shadow: 0 0 500px #3F0C1F;
   border: 2px solid #3F0C1F;
   background: url('../images/rwanda.jpg');
+  border-radius: 10px;
 }
 #search{
   margin-top: 13px;
@@ -22,6 +23,7 @@ color: red;
 .image-title{
   background-color:white;
   opacity:.7;
+  border-radius: 10px;
 }
 #service1{
 color:black;
@@ -29,6 +31,7 @@ font-weight:bold;
 background-color:white;
 text-align: center;
 opacity: .8;
+border-radius: 10px;
 }
 
 #am{
@@ -40,6 +43,7 @@ background-color:white;
 text-align: center;
 opacity: .8;
 font-size:22px;
+border-radius: 10px;
 }
 
 /** HEADER **/
@@ -63,6 +67,7 @@ font-size:22px;
   transition-delay: 1s;
   transition-duration: .5s;
   transition-timing-function: ease-in;
+  border-radius: 30px;
 }
 #logo-img:hover{
   height:78px;
@@ -147,49 +152,7 @@ font-size:22px;
 /********** Large devices only **********/
 
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* Header */
-  col-lg-max{
-    width:100%;
-  }
-  #logo-img {
-  background: url('../images/new.png') no-repeat;
-  width:50px;
-  height: 50px;
-  margin-top:0px;
-  background-color:#e67e22;
-}
-#main-content{
-  
-  border: 0px solid #3F0C1F;
-}
-.item{
-  width: 1650px;
-}
-#am{
-  width: 1500px;
-}
-.image-title{
-  width: 1600px;
-}
-#service1{
-width: 1500px;
-}
 
-#header-nav {
-  width: 1700px;
-}
-.panel-footer {
-  margin-top: 2000px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border: 2px solid #3F0C1F;
-  width:1700px;
-}
-
-}
 
 /********** Small devices only **********/
 
@@ -197,14 +160,12 @@ width: 1500px;
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-  .navbar-brand {
-    padding-top:5px;
-  }
+  
   .navbar-brand h1 { /* user name */
-    padding-top: 10px;
+    padding-top:5px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
- 
+
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
     background-color: white;
@@ -267,6 +228,7 @@ width: 1500px;
     border: 1px solid #3F0C1F; 
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
+    border-radius: 10px;
   }
   .item p{
     margin-top: 20px;
@@ -292,14 +254,14 @@ width: 1500px;
   
   
   /*------ Tablet ------*/
-  @media (min-width: 768px) and (max-width: 991px){
+  @media (min-width: 768px) and (max-width: 1200px){
     .col-lg-4 {
       width: 50%;
       float: left;
     }
     .col-lg-tablet{
      width: 100%;
-     float: left;
+     
    }
    .col-lg-12{
       width: 100%;
@@ -498,5 +460,7 @@ h1 span:nth-child(3){
     background-color: black;
     color: white;
     width: 180px;
+    border-radius: 20px;
+  
 }
 
