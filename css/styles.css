@@ -25,6 +25,9 @@ color: red;
   opacity:.7;
   border-radius: 10px;
 }
+.img-h{
+	border-radius:40px;
+}
 #service1{
 color:black;
 font-weight:bold;
@@ -50,6 +53,7 @@ border-radius: 10px;
 #header-nav {
   background-color: white;
   border: 1px solid #3F0C1F;
+ 
 }
 #image1{
   margin-top:80px;
@@ -63,14 +67,16 @@ border-radius: 10px;
   margin-left:10px;
   position: fixed;
   background-color:#e67e22;
-  transition-property:height;
+  transition-property:height,transform;
   transition-delay: 1s;
   transition-duration: .5s;
   transition-timing-function: ease-in;
   border-radius: 30px;
+
 }
 #logo-img:hover{
   height:78px;
+  transform:rotate(720deg);
 }
 
 .navbar-brand {
@@ -259,16 +265,12 @@ border-radius: 10px;
       width: 50%;
       float: left;
     }
-    .col-lg-tablet{
-     width: 100%;
-     
-   }
    .col-lg-12{
       width: 100%;
       float: left;
     }
   .panel-footer {
-  margin-top: 1420px;
+  margin-top: 2600px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -298,7 +300,7 @@ border-radius: 10px;
     padding-left:3px;
   }
   .panel-footer {
-  margin-top: 2040px;
+  margin-top: 2600px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -336,7 +338,7 @@ border-radius: 10px;
 
   }
    .panel-footer {
-  margin-top: 2000px;
+  margin-top: 2600px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -381,7 +383,7 @@ opacity: .8;
     width: 280px;
   }
    .panel-footer {
-  margin-top: 2000px;
+  margin-top: 2600px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
