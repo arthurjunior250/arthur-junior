@@ -10,10 +10,13 @@ color: red;
 }
 
 #main-content{
+  margin-top:100px;
   box-shadow: 0 0 500px #3F0C1F;
   border: 2px solid #3F0C1F;
   background: url('../images/rwanda.jpg');
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 #search{
   margin-top: 13px;
@@ -24,6 +27,7 @@ color: red;
   background-color:white;
   opacity:.7;
   border-radius: 10px;
+  box-shadow: -1px -1px 10px 0px #000;
 }
 .img-h{
 	border-radius:40px;
@@ -35,6 +39,7 @@ background-color:white;
 text-align: center;
 opacity: .8;
 border-radius: 10px;
+box-shadow: -1px -1px 10px 0px #000;
 }
 
 #am{
@@ -47,6 +52,7 @@ text-align: center;
 opacity: .8;
 font-size:22px;
 border-radius: 10px;
+box-shadow: -1px -1px 10px 0px #000;
 }
 
 /** HEADER **/
@@ -57,6 +63,8 @@ border-radius: 10px;
 }
 #image1{
   margin-top:80px;
+  box-shadow: -1px -1px 10px 0px #000;
+  border-radius: 50px;
 }
 
 #logo-img {
@@ -72,7 +80,7 @@ border-radius: 10px;
   transition-duration: .5s;
   transition-timing-function: ease-in;
   border-radius: 30px;
-
+  box-shadow: -1px -1px 10px 0px;
 }
 #logo-img:hover{
   height:78px;
@@ -124,9 +132,65 @@ border-radius: 10px;
 }
 /* END HEADER */
 
+/* BODY */
+/********************************** experience and education*************** **********/
+ #experiences{
+  background:white;
+  margin-top: 90px;
+  position:relative;
+  width:100%;
+
+ }
+  .menu-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color:black;
+    box-shadow: 10px 10px 10px  #3F0C1F;
+  }
+  .image-title{
+    text-align: center;
+    color: white;
+  }
+  
+  .item{
+    background-color:white;
+    position:relative;
+    color: black;
+    margin:5px;
+    padding:15px;
+    height: 610px;
+    border: 1px solid #3F0C1F; 
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    border-radius: 10px;
+  }
+  .item p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 100%;
+  }
+   .item-title{ 
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+   #title-one {
+    background-color:white;
+  } 
+  
+  #title-two{
+    background-color:white;
+  }
+  
+  #title-three{
+    background-color:white;
+  }
+  
+/* END BODY */
+
 /* FOOTER */
 .panel-footer {
-  margin-top: 800px;
+  display:inline-block;
+  width: 100%;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -205,59 +269,7 @@ border-radius: 10px;
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 
-/********************************** experience and education*************** **********/
- #experiences{
-  background:white;
-  margin-top: 90px;
-  position:absolute;
-  width:100%;
 
- }
-  .menu-title{
-    text-align: center;
-    margin-bottom: 30px;
-    color:black;
-    
-  }
-  .image-title{
-    text-align: center;
-    color: white;
-  }
-  
-  .item{
-    background-color:white;
-    position:relative;
-    color: black;
-    margin:5px;
-    padding:15px;
-    height: 610px;
-    border: 1px solid #3F0C1F; 
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
-    border-radius: 10px;
-  }
-  .item p{
-    margin-top: 20px;
-    text-align: justify;
-    font-size: 100%;
-  }
-   .item-title{ 
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-  }
-   #title-one {
-    background-color:white;
-  } 
-  
-  #title-two{
-    background-color:white;
-  }
-  
-  #title-three{
-    background-color:white;
-  }
-  
-  
   
   /*------ Tablet ------*/
   @media (min-width: 768px) and (max-width: 1200px){
@@ -265,23 +277,17 @@ border-radius: 10px;
       width: 50%;
       float: left;
     }
+    .col-lg-tablet{
+    	width:100%;
+    }
    .col-lg-12{
       width: 100%;
       float: left;
     }
-  .panel-footer {
-  margin-top: 2600px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border: 2px solid #3F0C1F;
+
+#main-content{
+  background: url('../images/rwanda.jpg');
 }
-#experiences{
-  background: white;
-  margin-top: 90px;
-   position: absolute; 
-   
- }
 
   }
   
@@ -296,22 +302,13 @@ border-radius: 10px;
       width: 100%;
       float: left;
     }
+    #main-content{
+  background: url('../images/rwanda.jpg');
+}
+
     .menu-title{
     padding-left:3px;
   }
-  .panel-footer {
-  margin-top: 2600px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border: 2px solid #3F0C1F;
-}
-#experiences{
-  background:white;
-  margin-top: 90px;
-   position:absolute; 
-   
- }
  
 #logo-img {
   background: url('../images/new.png') no-repeat;
@@ -337,14 +334,6 @@ border-radius: 10px;
     width: 320px;
 
   }
-   .panel-footer {
-  margin-top: 2600px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border: 2px solid #3F0C1F;
-
-  } 
    h1{
    font-size: 6vw; 
   }
@@ -370,6 +359,10 @@ background-color:white;
 text-align: center;
 opacity: .8;
 }
+#main-content{
+  background: url('../images/rwanda.jpg');
+}
+
 } 
 /*------ iphone 5s ------*/
   @media (min-width:0px) and (max-width:321px){
@@ -381,14 +374,6 @@ opacity: .8;
     padding:15px;
     height: 610px;
     width: 280px;
-  }
-   .panel-footer {
-  margin-top: 2600px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border: 2px solid #3F0C1F;
-
   } 
    h1{
    font-size: 6vw; 
@@ -415,6 +400,9 @@ font-weight:bold;
 background-color:white;
 text-align: center;
 opacity: .8;
+}
+#main-content{
+  background: url('../images/rwanda.jpg');
 }
   }   
 /*************************platform****************************/
