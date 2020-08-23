@@ -1,5 +1,5 @@
 function message(){
-alert("welcome to Mr. Arthur Junior page")
+alert("welcome to Mr. Arthur Junior page. to day is "+ Date());
 }
 function myfunction(){
 var x=document.getElementByID("touch");
@@ -9,12 +9,8 @@ function myfocus(x){
 x.style.background="while"
 }
 function message1(){
-alert("do you want to leave this page.")
+alert("Do You Want To Leave This Page.")
 }
-function zoom(){
-	// x=document.getElementByTagName("img");
-	// x.style.width=100%;
-	// x.style.height=100%;
-}
+
 
 

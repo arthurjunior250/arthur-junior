@@ -8,12 +8,13 @@ color: red;
 #nav-list #active2:active{
 color: red;
 }
-
+#nav-list #active3:active{
+color: red;
+}
 #main-content{
-  margin-top:100px;
-  box-shadow: 0 0 500px #3F0C1F;
-  border: 2px solid #3F0C1F;
-  background: url('../images/rwanda.jpg');
+  box-shadow: 0 0 500px black;
+  border: 2px solid black;
+  background: url('../images/nm.jpg');
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -21,50 +22,33 @@ color: red;
 #search{
   margin-top: 13px;
   color:black;
-  margin-left: 100px;
 }
 .image-title{
-  background-color:white;
-  opacity:.7;
-  border-radius: 10px;
   box-shadow: -1px -1px 10px 0px #000;
 }
 .img-h{
 	border-radius:40px;
 }
 #service1{
-color:black;
 font-weight:bold;
-background-color:white;
 text-align: center;
-opacity: .8;
-border-radius: 10px;
 box-shadow: -1px -1px 10px 0px #000;
 }
 
 #am{
+box-shadow: -1px -1px 10px 0px #000;
 margin-top:0px;
 font-family:cursive;
-color:black;
 font-weight:bold;
-background-color:white;
 text-align: center;
-opacity: .8;
 font-size:22px;
-border-radius: 10px;
-box-shadow: -1px -1px 10px 0px #000;
 }
 
 /** HEADER **/
 #header-nav {
   background-color: white;
-  border: 1px solid #3F0C1F;
+  border: 1px solid black;
  
-}
-#image1{
-  margin-top:80px;
-  box-shadow: -1px -1px 10px 0px #000;
-  border-radius: 50px;
 }
 
 #logo-img {
@@ -145,7 +129,7 @@ box-shadow: -1px -1px 10px 0px #000;
     text-align: center;
     margin-bottom: 30px;
     color:black;
-    box-shadow: 10px 10px 10px  #3F0C1F;
+    box-shadow: 10px 10px 10px  black;
   }
   .image-title{
     text-align: center;
@@ -158,10 +142,9 @@ box-shadow: -1px -1px 10px 0px #000;
     color: black;
     margin:5px;
     padding:15px;
-    height: 610px;
-    border: 1px solid #3F0C1F; 
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
+    height: 610px; 
+    box-shadow: 0 0 50px black;
+    border: 2px solid black;
     border-radius: 10px;
   }
   .item p{
@@ -194,7 +177,7 @@ box-shadow: -1px -1px 10px 0px #000;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
-  border: 2px solid #3F0C1F;
+  border: 2px solid black;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -215,6 +198,9 @@ box-shadow: -1px -1px 10px 0px #000;
 }
 #testimonials p:nth-child(2) {
   margin-top: 25px;
+}
+#testimonials p{
+text-align: center;
 }
 /* END FOOTER */
 
@@ -286,7 +272,7 @@ box-shadow: -1px -1px 10px 0px #000;
     }
 
 #main-content{
-  background: url('../images/rwanda.jpg');
+ background: url('../images/nm.jpg');
 }
 
   }
@@ -303,7 +289,7 @@ box-shadow: -1px -1px 10px 0px #000;
       float: left;
     }
     #main-content{
-  background: url('../images/rwanda.jpg');
+ background: url('../images/nm.jpg');
 }
 
     .menu-title{
@@ -318,6 +304,10 @@ box-shadow: -1px -1px 10px 0px #000;
   margin-left:10px;
   position: fixed;
   background-color:#e67e22;
+}
+#arturo{
+  width: 100%;
+  height: 100%;
 }
 
   } 
@@ -346,23 +336,19 @@ box-shadow: -1px -1px 10px 0px #000;
   position: fixed;
   background-color:#e67e22;
 }
-#image1{
-  width: 350px;
-  height: 270px;
-}
 #am{
 margin-top:0px;
 font-family:cursive;
-color:black;
 font-weight:bold;
-background-color:white;
 text-align: center;
-opacity: .8;
 }
 #main-content{
-  background: url('../images/rwanda.jpg');
+  background: url('../images/nm.jpg');
 }
-
+#arturo{
+  width: 100%;
+  height: 100%;
+}
 } 
 /*------ iphone 5s ------*/
   @media (min-width:0px) and (max-width:321px){
@@ -387,22 +373,18 @@ opacity: .8;
   position: fixed;
   background-color:#e67e22;
 }
-
-#image1{
-  width: 300px;
-  height: 240px;
-}
 #am{
 margin-top:0px;
 font-family:cursive;
-color:black;
 font-weight:bold;
-background-color:white;
 text-align: center;
-opacity: .8;
 }
 #main-content{
-  background: url('../images/rwanda.jpg');
+  background: url('../images/nm.jpg');
+}
+#arturo{
+  width: 100%;
+  height: 100%;
 }
   }   
 /*************************platform****************************/
@@ -443,7 +425,6 @@ h1 span:nth-child(3){
 }
 #call-btn > a {
     font-size: 1.5em;
-    display: block;
     margin: 0 auto;
     padding: 5px;
     border: 2px solid #3F0C1F;
@@ -453,4 +434,5 @@ h1 span:nth-child(3){
     border-radius: 20px;
   
 }
+
 
