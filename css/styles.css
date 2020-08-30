@@ -3,13 +3,13 @@ body {
   color: #fff;
 }
 #nav-list #active1:active{
-color: red;
+color: #6173f4;
 }
 #nav-list #active2:active{
-color: red;
+color: #6173f4;
 }
 #nav-list #active3:active{
-color: red;
+color: #6173f4;
 }
 #main-content{
   box-shadow: 0 0 500px black;
@@ -64,7 +64,6 @@ font-size:22px;
   transition-duration: .5s;
   transition-timing-function: ease-in;
   border-radius: 30px;
-  box-shadow: -1px -1px 10px 0px;
 }
 #logo-img:hover{
   height:78px;
@@ -96,12 +95,12 @@ font-size:22px;
   
 }
 #nav-list a {
-  color:gray;
+  color:black;
   text-align: center;
-  font-weight: bold;
+  
 }
 #nav-list a:hover {
-  color: #e67e22;
+  color:#1bbd36;
 }
 #nav-list a span {
   font-size: 1.3em;
@@ -172,6 +171,10 @@ font-size:22px;
 
 /* FOOTER */
 .panel-footer {
+background-color:#222;
+background-image:url(../images/map-image.png);
+background-position:center;
+background-repeat:no-repeat;
   display:inline-block;
   width: 100%;
   padding-top: 35px;
@@ -416,10 +419,10 @@ h1 span:nth-child(3){
     transform: translateY(1px);
   }
   1%{
-    transform: translateY(2px);
+    transform: translateY(1px);
   }
   2%{
-    transform: translateY(3px);
+    transform: translateY(1px);
   }
   
 }
@@ -427,12 +430,13 @@ h1 span:nth-child(3){
     font-size: 1.5em;
     margin: 0 auto;
     padding: 5px;
-    border: 2px solid #3F0C1F;
+    border: 2px solid #1bbd36;
     background-color: black;
     color: white;
     width: 180px;
     border-radius: 20px;
   
 }
-
-
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
