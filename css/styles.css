@@ -11,11 +11,14 @@ color: #6173f4;
 #nav-list #active3:active{
 color: #6173f4;
 }
-#main-content{
-  box-shadow: 0 0 500px black;
-  border: 2px solid black;
+nav{
   background: url('../images/nm.jpg');
-  border-radius: 10px;
+}
+#main-content{
+  /*box-shadow: 0 0 500px black;
+  border: 2px solid black;*/
+  
+  /*border-radius: 10px;*/
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -46,8 +49,8 @@ font-size:22px;
 
 /** HEADER **/
 #header-nav {
-  background-color: white;
-  border: 1px solid black;
+  /*background-color: white;*/
+  /*border: 1px solid black;*/
  
 }
 
@@ -76,7 +79,7 @@ font-size:22px;
 }
 .navbar-brand h1 { /* user name */
   font-family:'lora' serif;
-  color: black;
+  color: white;
   font-size: 1.5em;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #222;
@@ -95,7 +98,7 @@ font-size:22px;
   
 }
 #nav-list a {
-  color:black;
+  color:white;
   text-align: center;
   
 }
@@ -119,7 +122,6 @@ font-size:22px;
 /********************************** experience and education*************** **********/
  #experiences{
   background:white;
-  margin-top: 90px;
   position:relative;
   width:100%;
 
@@ -128,7 +130,9 @@ font-size:22px;
     text-align: center;
     margin-bottom: 30px;
     color:black;
-    box-shadow: 10px 10px 10px  black;
+    border: 2px solid #1bbd36;
+    box-shadow: 0 0 500px black;
+
   }
   .image-title{
     text-align: center;
@@ -205,6 +209,7 @@ background-repeat:no-repeat;
 #testimonials p{
 text-align: center;
 }
+
 /* END FOOTER */
 
 
@@ -219,7 +224,9 @@ text-align: center;
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-  
+  #navbarToggle{
+    background-color: white;
+  }
   .navbar-brand h1 { /* user name */
     padding-top:5px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
@@ -227,7 +234,7 @@ text-align: center;
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
-    background-color: white;
+    background: url('../images/nm.jpg');
     
     
   }
@@ -249,6 +256,7 @@ text-align: center;
   .panel-footer section hr {
     width: 50%;
   }
+
   /* End Footer */
 
   /* Home Page */
