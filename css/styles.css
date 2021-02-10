@@ -2,6 +2,9 @@ body {
   font-size: 16px;
   color: #fff;
 }
+#loading{
+  text-align: center;
+}
 #nav-list #active1:active{
 color: #6173f4;
 }
@@ -213,181 +216,6 @@ text-align: center;
 /* END FOOTER */
 
 
-/********** Large devices only **********/
-
-
-
-
-/********** Small devices only **********/
-
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-  #navbarToggle{
-    background-color: white;
-  }
-  .navbar-brand h1 { /* user name */
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-    background: url('../images/nm.jpg');
-    
-    
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-  
-  }
-  
-  /* End Header */
-
-  /* Footer */
-  .panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
-
-  /* End Footer */
-
-  /* Home Page */
- 
-}
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-
-
-  
-  /*------ Tablet ------*/
-  @media (min-width: 768px) and (max-width: 1200px){
-#main-content{
- background: url('../images/nm.jpg');
-}
-#logo-img {
-  background: url('../images/new.png') no-repeat;
-  width:50px;
-  height: 50px;
-  margin-top:0px;
-  background-color:#e67e22;
-}
-.navbar-brand h1 { /* user name */
-    font-size:0vw; /* 1vw = 1% of viewport width */
-  }
-
-  }
-  
-  
-  /*------ Mobile ------*/
-  @media (min-width: 416px) and (max-width: 767px){
-  h1{
-   font-size:4vw; 
-  }
-    #main-content{
- background: url('../images/nm.jpg');
-}
-
-    .menu-title{
-    padding-left:3px;
-  }
- 
-#logo-img {
-  background: url('../images/new.png') no-repeat;
-  width:50px;
-  height: 50px;
-  margin-top:0px;
-  background-color:#e67e22;
-}
-
-
-  } 
-  
-
-/*------ iphone 6 ------*/
-  @media (min-width: 322px) and (max-width:415px){
-    .item{
-    position:relative;
-    background-color:white;
-    margin:5px auto;
-    padding:15px;
-    height: 610px;
-    width: 320px;
-
-  }
-   h1{
-   font-size: 6vw; 
-  }
-  #logo-img {
-  background: url('../images/new.png') no-repeat;
-  width:50px;
-  height: 50px;
-  margin-top:0px;
-  background-color:#e67e22;
-}
-#am{
-margin-top:0px;
-font-family:cursive;
-font-weight:bold;
-text-align: center;
-}
-#main-content{
-  background: url('../images/nm.jpg');
-}
-} 
-/*------ iphone 5s ------*/
-  @media (min-width:281px) and (max-width:321px){
-
-    .item{
-    position:relative;
-    background-color:white;
-    margin:5px auto;
-    padding:15px;
-    height: 610px;
-    width: 280px;
-  } 
-   h1{
-   font-size: 6vw; 
-  }
-#logo-img {
-  background: url('../images/new.png') no-repeat;
-  width:50px;
-  height: 50px;
-  margin-top:0px;
-  background-color:#e67e22;
-}
-#am{
-margin-top:0px;
-font-family:cursive;
-font-weight:bold;
-text-align: center;
-}
-#main-content{
-  background: url('../images/nm.jpg');
-}
-  }  
- /*------ ford ------*/
-  @media (min-width:0px) and (max-width:280px){
-    .item{
-    position:relative;
-    background-color:white;
-    margin:5px auto;
-    padding:15px;
-    height: 610px;
-    width: 260px;
-  }	
-    h1{
-   font-size:5vw; 
-  }
-  }
- 
 
 /*************************platform****************************/
 #hours a{
@@ -395,9 +223,9 @@ text-align: center;
   text-decoration: none;
 }
 #hours a:hover{
-  color: blue;
+  color: #1bbd36;
 }
-/*88888888888888888888888888888888888888888888888888888888888888bounce*/
+/*animation for a250 logo*/
 h1 span{
   position: relative;
   display: inline-block;
@@ -425,6 +253,8 @@ h1 span:nth-child(3){
   }
   
 }
+
+/* call button */
 #call-btn > a {
     font-size: 1.5em;
     margin: 0 auto;
