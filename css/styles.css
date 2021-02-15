@@ -269,3 +269,56 @@ h1 span:nth-child(3){
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+
+/* .....................Button Read more........................ */
+
+.btn-readmore {
+  padding: 8px 24px;
+  border: 3px solid black;
+  transition: 0.4s;
+  display: inline-block;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  background: white;
+}
+
+.btn-readmore:hover {
+  background: #1bbd36;
+  text-decoration:none;
+  padding: 8px 64px 8px 24px;
+  color: white;
+}
+.section-heading {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  transition: all 0.4s;
+  display: inline-block;
+  padding: 4px 32px;
+}
+
+.section-heading:hover {
+  padding: 4px 48px;
+  background: #1bbd36;
+}
+
+/* Section Source */
+
+#section-source p {
+  padding: 8px;
+  text-align: center;
+}
+
+#section-source a {
+  margin: 8px;
+  text-align: center;
+}
+.container #section-source {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
