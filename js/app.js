@@ -34,7 +34,7 @@
 const api = "https://api.quotable.io/random";
 
 const quote = document.querySelector('.jokes');
-// const author = document.getElementById("author");
+const author = document.getElementById("autor");
 // const btn = document.getElementsByClassName('btn-readmore');
 document.querySelector('.btn-readmore').addEventListener('click', getQuote);
 // btn.addEventListener("click", getQuote);
@@ -44,7 +44,7 @@ function getQuote() {
     .then((res) => res.json())
     .then((data) => {
       quote.innerHTML = `"${data.content}"`;
-      // author.innerHTML = `- ${data.author}`;
+      author.innerHTML = `AUTHOR:${data.author}`;
     });
 }
 
