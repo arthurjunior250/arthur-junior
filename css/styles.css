@@ -4,7 +4,13 @@ body {
 }
 #loading{
   text-align: center;
-  margin-top: 200px;
+  vertical-align:middle;
+  height: 100px;
+  line-height:normal;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  margin-top:250px;
 }
 #nav-list #active1:active{
 color: #6173f4;
