@@ -4,6 +4,7 @@ body {
 }
 #loading{
   text-align: center;
+  margin-top: 200px;
 }
 #nav-list #active1:active{
 color: #6173f4;
@@ -322,3 +323,15 @@ h1 span:nth-child(3){
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+/* zoom image certificates */
+/* Point-zoom Container */
+.img-hover-zoom--point-zoom img {
+  transform-origin: 65% 75%;
+  transition: transform 1s, filter .5s ease-out;
+}
+
+/* The Transformation */
+.img-hover-zoom--point-zoom:hover img {
+  transform: scale(2.5);
+  }
