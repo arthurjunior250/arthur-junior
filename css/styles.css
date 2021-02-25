@@ -8,7 +8,7 @@ body {
   height: 100px;
   line-height:normal;
   width: 100%;
-  display:flex;
+  display: inline-flex;
   justify-content: center;
   margin-top:250px;
 }
