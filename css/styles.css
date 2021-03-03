@@ -68,7 +68,6 @@ font-size:22px;
   background: url('../images/new.png') no-repeat;
   width:50px;
   height: 50px;
-  margin-top:0px;
  
  /* position: fixed;*/
   background-color:#e67e22;
@@ -248,7 +247,7 @@ h1 span:nth-child(3){
   animation-delay:0.3s;
 }
 
-@keyframes animate{
+/* @keyframes animate{
   0%{
     transform: translateY(1px);
   }
@@ -259,7 +258,7 @@ h1 span:nth-child(3){
     transform: translateY(1px);
   }
   
-}
+} */
 
 /* call button */
 #call-btn > a {
@@ -341,3 +340,22 @@ h1 span:nth-child(3){
 .img-hover-zoom--point-zoom:hover img {
   transform: scale(2.5);
   }
+
+
+
+
+
+/*app logo*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
