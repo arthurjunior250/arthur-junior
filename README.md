@@ -1,8 +1,6 @@
 <h2> Hi, I am Arthur! <img src="https://media.giphy.com/media/26Fxy3Iz1ari8oytO/giphy.gif" width="70"></h2>
 
-![DUSABIMANA Arthur Junior A Full-Stack Web Developer (1)](https://user-images.githubusercontent.com/55635977/110165204-46061880-7dfb-11eb-9ce4-45a19c5cb87e.jpg)
-
-<p><em>A Remote Full-stack web developer ready for implementation of any project. (Problem-solving)</em><img src="https://media.giphy.com/media/THICzXhqZItpoFX7aD/giphy.gif" width="55">
+![DUSABIMANA Arthur Junior A Full-Stack Web Developer (1)]
   
  <h2>Let's get in touch!</h2>
 <p align="center">
