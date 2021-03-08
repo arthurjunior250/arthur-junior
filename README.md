@@ -7,12 +7,9 @@
  <h2>Let's get in touch!</h2>
 <p align="center">
   <a href="mailto:arthurjunior88741@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
-  <a href="https://www.linkedin.com/in/nsabimana-emmanuel-4276091b2/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://twitter.com/arthurjunior250" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
   <a href="https://api.whatsapp.com/send?phone=250787691306" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 </p>
-
-### <img src="https://media.giphy.com/media/kbVuid1Ak3uEHJUMVO/giphy.gif" width="50"> A little more about me... 
 
 ```javascript
 const a = {
@@ -27,7 +24,7 @@ const a = {
   <img  height="180em"  src="https://github-readme-stats.vercel.app/api?username=arthurjunior250&show_icons=true&theme=nord">
 </a>
 <a  href="https://github.com/arthurjunior250">
-    <img  height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmyn5600&theme=buefy&layout=compact">
+    <img  height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthurjunior250&theme=buefy&layout=compact">
 </a>
 
 
