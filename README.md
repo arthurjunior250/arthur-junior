@@ -1,6 +1,6 @@
 <h2> Hi, I am Arthur! <img src="https://media.giphy.com/media/26Fxy3Iz1ari8oytO/giphy.gif" width="70"></h2>
 
-![DUSABIMANA Arthur Junior A Full-Stack Web Developer (1)]
+DUSABIMANA Arthur Junior A Full-Stack Web Developer
   
  <h2>Let's get in touch!</h2>
 <p align="center">
