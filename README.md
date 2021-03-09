@@ -1,6 +1,5 @@
-<h2> Hi, I am Arthur! <img src="https://media.giphy.com/media/26Fxy3Iz1ari8oytO/giphy.gif" width="70"></h2>
+<h2> Hi, I am Arthur Junior A Full-Stack Web Developer! <img src="https://media.giphy.com/media/26Fxy3Iz1ari8oytO/giphy.gif" width="70"></h2>
 
-DUSABIMANA Arthur Junior A Full-Stack Web Developer
   
  <h2>Let's get in touch!</h2>
 <p align="center">
@@ -9,13 +8,6 @@ DUSABIMANA Arthur Junior A Full-Stack Web Developer
   <a href="https://api.whatsapp.com/send?phone=250787691306" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 </p>
 
-```javascript
-const a = {
-  pronouns: ["He", "Him"],
-  lookingFor: "Front-end developer" || "Full-stack web developer",
-  code: [JavaScript, React, HTML/CSS, Bootstrap],
-}
-```
 <h3> :chart: &nbsp;GitHub Stats </h3>
 
 <a  href="https://github.com/arthurjunior250">
