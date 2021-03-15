@@ -8,6 +8,7 @@
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  
   /* Header */
   #navbarToggle{
     background-color: white;
@@ -74,6 +75,9 @@
   
   /*------ Mobile ------*/
   @media (min-width: 416px) and (max-width: 767px){
+    .footer-links{
+      text-align: center;
+    }
   h1{
    font-size:4vw; 
   }
@@ -92,6 +96,9 @@
   margin-top:0px;
   background-color:#e67e22;
 }
+.cert{
+  text-align: center;
+}
 
 
   } 
@@ -99,8 +106,8 @@
 
 /*------ iphone 6 ------*/
   @media (min-width: 322px) and (max-width:415px){
-    #loading{
-      margin-top:150px;
+    .footer-links{
+      text-align: center;
     }
     .item{
     position:relative;
@@ -130,12 +137,19 @@ text-align: center;
 #main-content{
   background: url('../images/nm.jpg');
 }
+.cert{
+  text-align: center;
+}
 } 
 /*------ iphone 5s ------*/
   @media (min-width:281px) and (max-width:321px){
-    #loading{
-      margin-top:150px;
+    .footer-links{
+      text-align: center;
     }
+    .cert{
+      text-align: center;
+    }
+
     .item{
     position:relative;
     background-color:white;
@@ -177,8 +191,11 @@ text-align: center;
     h1{
    font-size:5vw; 
   }
-  #loading{
-    margin-top:150px;
+  .footer-links{
+    text-align: center;
+  }
+  .cert{
+    text-align: center;
   }
   }
  

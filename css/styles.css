@@ -2,15 +2,22 @@ body {
   font-size: 16px;
   color: #fff;
 }
+.footer-links{
+  text-align: left;
+}
 #loading{
-  text-align: center;
-  vertical-align:middle;
-  height: 100px;
-  line-height:normal;
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
-  margin-top:250px;
+  /* text-align: center;
+  height: 80px;
+  width: 80%;
+  display:flex; */
+  display:inline-flex;
+  position:absolute;
+  width: 256px;
+  height: 256px;
+  top: 50%;
+  left: 50%;
+  margin: -128px 0 0 -128px;
+  z-index: 1000;
 }
 #nav-list #active1:active{
 color: #6173f4;
@@ -158,11 +165,17 @@ font-size:22px;
     box-shadow: 0 0 50px white;
     border: 2px solid black;
     border-radius: 10px;
+   
   }
+  .item-title{
+    text-align: center;
+  }
+  
   .item p{
     margin-top: 20px;
     text-align: justify;
     font-size: 100%;
+    
   }
    .item-title{ 
     border-left: 2px solid black;
