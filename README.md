@@ -17,10 +17,3 @@
     <img  height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthurjunior250&theme=buefy&layout=compact">
 </a>
 
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> a6cfb571754e7379675f27fa1cbb6cb87eef32a2
