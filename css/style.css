@@ -263,8 +263,8 @@
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  width: 140px;
-  height: 140px;
+  width: 40px;
+  height: 40px;
   border-radius: 3px;
   background: #1bbd36;
   color: #fff;
@@ -285,4 +285,21 @@
 #footer{
   background-image:url(../images/map-image.png);
 }
+
+
+
+
+#experiences ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#experiences ul i {
+  padding-right: 2px;
+  color: #1ed33c;
+  font-size: 18px;
+  line-height: 1;
+}
+
 
