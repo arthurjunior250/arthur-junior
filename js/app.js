@@ -44,7 +44,7 @@ function getQuote() {
     .then((res) => res.json())
     .then((data) => {
       quote.innerHTML = `"${data.content}"`;
-      author.innerHTML = `AUTHOR:${data.author}`;
+      author.innerHTML = `AUTHOR : ${data.author}`;
     });
 }
 
