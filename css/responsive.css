@@ -43,7 +43,9 @@
   }
 
   /* End Footer */
-
+  .footer-links{
+    text-align: center;
+  }
   /* Home Page */
  
 }
@@ -68,6 +70,12 @@
 }
 .navbar-brand h1 { /* user name */
     font-size:0vw; /* 1vw = 1% of viewport width */
+  }
+  .footer-links{
+    text-align: center;
+  }
+  .cert{
+    text-align: center;
   }
 
   }
