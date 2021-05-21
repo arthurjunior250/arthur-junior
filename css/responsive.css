@@ -114,6 +114,7 @@
 
 /*------ iphone 6 ------*/
   @media (min-width: 322px) and (max-width:415px){
+ 
     .footer-links{
       text-align: center;
     }
@@ -147,6 +148,7 @@ text-align: center;
 }
 .cert{
   text-align: center;
+  
 }
 } 
 /*------ iphone 5s ------*/
