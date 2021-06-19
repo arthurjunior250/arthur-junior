@@ -314,6 +314,7 @@ h1 span:nth-child(3){
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
+  color: #000;
 }
 
 .section-heading:hover {
@@ -340,15 +341,15 @@ h1 span:nth-child(3){
 
 /* zoom image certificates */
 /* Point-zoom Container */
-.img-hover-zoom--point-zoom img {
+/* .img-hover-zoom--point-zoom img {
   transform-origin: 65% 75%;
   transition: transform 1s, filter .5s ease-out;
-}
+} */
 
 /* The Transformation */
-.img-hover-zoom--point-zoom:hover img {
+/* .img-hover-zoom--point-zoom:hover img {
   transform: scale(2.5);
-  }
+  } */
 
 
 
