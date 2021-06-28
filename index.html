@@ -127,7 +127,7 @@
   <section id="hero">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-      < class="carousel-inner" role="listbox">
+      {% comment %} < class="carousel-inner" role="listbox"> {% endcomment %}
 
         <!-- Slide 1 -->
         <div class="carousel-item active" style="background-image: url(assets/img/slide/nm.jpg);">
@@ -321,9 +321,8 @@
                 <div class="col-lg-12 text-center">
                     <!-- <h2 class="section-heading">Our Amazing Team</h2> -->
                       <h2 id="about" class="section-heading">About Us</h2>
-                </div>
-
-           
+                {% comment %} </div> {% endcomment %}
+         
 
 <!-- <div class="col-sm-4">
                     <div class="team-member">
@@ -502,12 +501,12 @@
 					//console.log (message);
 					if(message=='OK'){
 					alert('Your mail has been send. Thank you for connecting.');
-
+          window.location.reload();
 					}
 					else{
 						console.error (message);
 						alert('There is error at sending message. ')
-						
+						window.location.reload();
 					}
 
 				}

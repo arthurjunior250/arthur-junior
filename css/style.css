@@ -521,20 +521,21 @@ h3.global-title {
 .form-mid {
   background: #fff;
   padding: 3rem;
-  border: 1px solid #eee;
+  border: 1px solid #000;
   border-radius: 4px;
 }
 
 .form-mid form input,
 .form-mid form textarea {
   background: #f8f9fa;
-  border: 2px solid rgba(216, 216, 216, 0.3);
-  color: #777;
+  border: 2px solid gray;
+  color: #000;
   font-size: 16px;
   padding: 12px 15px;
   width: 100%;
   border-radius: 4px;
   height: 55px;
+  margin:20px auto;
 }
 
 .form-mid form textarea {
