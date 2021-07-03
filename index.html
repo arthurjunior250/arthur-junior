@@ -127,7 +127,7 @@
   <section id="hero">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-      {% comment %} < class="carousel-inner" role="listbox"> {% endcomment %}
+
 
         <!-- Slide 1 -->
         <div class="carousel-item active" style="background-image: url(assets/img/slide/nm.jpg);">
@@ -468,57 +468,7 @@
     </div>
   </section>
   <!-- /contact1 -->
-  
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
- 
-<script>  
 
-     function sendmail(){
-    
-			var name = $('#Name').val();
-			var email = $('#Sender').val();
-			var subject = $('#Subject').val();
-      var message = $('#Message').val();
-
-			// var body = $('#body').val();
-
-			var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
-			//console.log(name, phone, email, message);
-
-			Email.send({
-        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-				To: 'arthurjunior88741@gmail.com',
-				From: "arthurjuniortk@gmail.com",
-				Subject: "New message from arthurjunior.tk send by "+name,
-				Body: Body
-			}).then(
-				message =>{
-					//console.log (message);
-					if(message=='OK'){
-					alert('Your mail has been send. Thank you for connecting.');
-          window.location.reload();
-					}
-					else{
-						console.error (message);
-						alert('There is error at sending message. ')
-						window.location.reload();
-					}
-
-				}
-			);
-
-
-
-		}
-
-
-    </script>
- </script>
 
 <!-- <!.............................quote.........................................> -->
         <div class="col-lg-12 text-center" onload="yes()">
@@ -654,6 +604,12 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-
+   <!--contact us -->
+   <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
 </body>
 </html>
