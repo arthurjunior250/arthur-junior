@@ -14,7 +14,12 @@ function getQuote() {
     .then((data) => {
       quote.innerHTML = `"${data.content}"`;
       author.innerHTML = `AUTHOR : ${data.author}`;
+      if (data){
+        removeSpinner();
+      }
     });
+    loadSpinner();
+ 
 }
 
 
@@ -48,3 +53,26 @@ window.onclick = function(event) {
   }
 }
 // end modal
+
+
+
+
+
+// ////////////////////spinner////////////////////
+function loadSpinner() {
+  document.querySelector(".spinner").classList.add("backdrop-bg");
+  const spinner = `
+      <div class="ring">
+        Loading
+        <div id="lool">
+        <p></p> </div>
+      </div>`;
+  document.querySelector(".spinner").insertAdjacentHTML("afterbegin", spinner);
+};
+
+function removeSpinner() {
+    const spinner = document.querySelector(".ring");
+    document.querySelector(".spinner").classList.remove("backdrop-bg");
+    spinner.parentNode.removeChild(spinner);
+    return;
+  };

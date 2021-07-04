@@ -1,6 +1,7 @@
 // function message(){
 // alert("welcome to Mr. Arthur Junior page. to day is "+ Date());
 // }
+
 function myfunction(){
 var x=document.getElementByID("touch");
 x.value=x.value.tolowercase();
@@ -16,7 +17,7 @@ alert("Do You Want To Leave This Page.")
 
 function loader(){
   // // show loader
-  document.getElementById('loading').style.display = 'show';
+  loadSpinner(); 
   
   // // hide body
   document.getElementById('start').style.display = 'none';
@@ -30,7 +31,7 @@ function showBody(){
    document.getElementById('start').style.display = 'block';
 
     // // hide loader
-  document.getElementById('loading').style.display = 'none';
+    removeSpinner();
 
 }
 
@@ -46,7 +47,7 @@ function sendmail(){
 
   var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
   //console.log(name, phone, email, message);
-
+  loadSpinner();
   Email.send({
     SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
     To: 'arthurjunior88741@gmail.com',
@@ -58,11 +59,13 @@ function sendmail(){
       //console.log (message);
       if(message=='OK'){
       alert('Your mail has been send. Thank you for connecting.');
+      removeSpinner()
       window.location.reload();
       }
       else{
         console.error (message);
         alert('There is error at sending message. ');
+        removeSpinner()
         window.location.reload();
       }
 
@@ -71,6 +74,24 @@ function sendmail(){
 }
 
 
+// ////////////////////spinner////////////////////
+function loadSpinner() {
+  document.querySelector(".spinner").classList.add("backdrop-bg");
+  const spinner = `
+      <div class="ring">
+        Loading
+        <div id="lool">
+        <p></p> </div>
+      </div>`;
+  document.querySelector(".spinner").insertAdjacentHTML("afterbegin", spinner);
+};
+
+function removeSpinner() {
+    const spinner = document.querySelector(".ring");
+    document.querySelector(".spinner").classList.remove("backdrop-bg");
+    spinner.parentNode.removeChild(spinner);
+    return;
+  };
 
 
 
